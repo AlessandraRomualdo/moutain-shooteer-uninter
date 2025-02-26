@@ -22,8 +22,3 @@ class Game:
                 quit()  # finaliza pygame
             else:
                 pass
-
-
-
-
-
