@@ -22,6 +22,7 @@ class Score:
         self.window.blit(source=self.surf, dest=self.rect)
         db_proxy = DBProxy('DBScore')
         name = ''
+        score = ''
         while True:
             self.score_text(48, 'YOU WIN!!', C_YELLOW, SCORE_POS['Title'])
             text = ''
